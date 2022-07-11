@@ -1,4 +1,4 @@
-.topnav {
+.section1 {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,30 +8,49 @@
     
 }
 
-.links {
-    float: right;
-    
+.logo {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
 }
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: right;
+    margin: 0;
+}
+ 
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+   
+}
+
 
 a {
     color: #F9FAF8;
     text-decoration: none;
     
-    
-    
 }
 
-h1 {
-    font-size: 48px;
+h2 {
+    font-size: 35px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding-top: 20px;
 }
+
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-ul { 
-    list-style-type: none;
+img {
+    float: right;
 }
+
